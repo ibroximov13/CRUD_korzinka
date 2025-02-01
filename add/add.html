@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahsulot qo'shish</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./add.css">
+</head>
+<body>
+    <div class="container">
+        <ul class="link">
+            <li><a href="../korzinka.html">Ortga</a></li>
+            <li><a href="./add.html">Qoshish</a></li>
+            <li><a href="#">Bay</a></li>
+        </ul>
+        <h2>Mahsulot qo'shish</h2>
+        <input type="text" class="name" placeholder="Mahsulot nomi">
+        <input type="number" class="narx" placeholder="Narxi">
+        <input type="datetime-local" class="datetime" placeholder="Data">
+        <select class="option">
+            <option disabled selected>Abdate uchun id tanlang</option>
+        </select>
+        <input type="text"  class="avatar" placeholder="Image">
+        <div class="buttons">
+            <button class="save">Saqlash</button>
+            <button class="cancel">O'zgartirish</button>
+            <button class="del">Bekor qilish</button>
+        </div>
+    </div>
+    <script src="./add.js"></script>
+</body>
+</html>
