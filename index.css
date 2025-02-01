@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.vd {
+    top: 0;
+    position: fixed;
+    object-fit: cover;
+    z-index: 0;
+    filter: blur(5px);
+}
+
+#nav {
+    list-style: none;
+    width: 100%;
+    padding: 30px 400px 30px 400px;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(13, 13, 49) ;
+    color:white;
+    gap: 30px;
+    border-bottom: 2px solid white;
+    position: fixed;
+    top: 0;
+    z-index: 2000;
+}
+
+.all {
+    margin: 60px;
+    padding: 50px 100px 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    position: sticky;
+    z-index: 1000;
+}
+
+#card {
+    width: 320px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 0 0 30px 5px black;
+    background-image: url("https://th.bing.com/th/id/OIP.XLuDwWYE3uQq8-KGYYiq4gHaEK?rs=1&pid=ImgDetMain");
+}
+
+#cardBtns {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#cardBtns button {
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 0 0 10px 0 rgb(223, 255, 44);
+    transition: 0.3s;
+}
+
+#cardBtns button:hover {
+    box-shadow: 0 0 20px 5px black;
+    color: green;
+}
+
+#editDeleteBuyBtn {
+    display: flex;
+    justify-content: space-around;
+}
