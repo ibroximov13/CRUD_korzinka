@@ -1,1 +1,1 @@
-index.html saytning asosiy fayli
+saytning asosiy sahifasi (index.html)
